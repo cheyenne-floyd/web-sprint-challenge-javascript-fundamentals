@@ -26,15 +26,18 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+.forEach doesnt not return a new array and does not need a return statement. .map returns a new array and requires a return statement
 2. Explain the difference between a callback and a higher order function.
-
+callbacks get passed through HOFs
 3. What is closure?
-
+a function that reaches outside of itslef to find a value in the parents scope
 4. Describe the four rules of the 'this' keyword.
-
+   1. Is the function called by new ?
+    2. Explicit binding. Is the function called by call() , apply() , or bind() ?
+    3. Implicit binding/ most common, called as a method, look to the left of the dot to know what this refers to
+    4. Window binding/default unless in strict mode which will return undefined . Otherwise, return the global object, ie: window .
 5. Why do we need super() in an extended class?
-
+create the new object
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
